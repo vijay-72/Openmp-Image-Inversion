@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-const int imgwidth = 1080;
-const int imgheight = 720;
-const int size = 720 * 720;
+const int imgwidth = 512;
+const int imgheight = 512;
+const int size = 512 * 512;
 const int pix_num = 255;
 
 void filewrite(unsigned char *d, int width, int height) {
